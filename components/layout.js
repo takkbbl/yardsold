@@ -5,16 +5,16 @@ import Footer from "./footer/Footer";
 
 const Layout = ({ children }) => (
   <div>
-    <Head>
+    <Head></Head>
+    <nav>
       <Menu />
-    </Head>
-    <nav></nav>
-    <div className={styles.wrapper}>
-      <div className={styles.contentwrapper}>{children}</div>
-      <div className={styles.footerwrapper}>
+    </nav>
+    <main className={styles.wrapper}>
+      <section className={styles.contentwrapper}>{children}</section>
+      <footer className={styles.footerwrapper}>
         <Footer />
-      </div>
-    </div>
+      </footer>
+    </main>
   </div>
 );
 

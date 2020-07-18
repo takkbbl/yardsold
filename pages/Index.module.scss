@@ -1,0 +1,17 @@
+@import "../styles/variables.scss";
+
+.header {
+  color: $primary;
+  font-size: 8rem;
+}
+
+.wrapper {
+  padding: 20rem;
+  height: 100vh;
+  background-color: $secondary;
+}
+
+.link {
+  font-size: 5rem;
+  color: $primary;
+}

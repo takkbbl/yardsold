@@ -5,7 +5,8 @@ export default class Menu extends Component {
   render() {
     return (
       <>
-        <h1 className={styles.menu}>Nav</h1>
+        <h1 className={styles.menu}>YardSold</h1>
+        
       </>
     );
   }

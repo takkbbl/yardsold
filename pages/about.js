@@ -1,4 +1,4 @@
-import Layout from "../components/Layout";
+import Layout from "../components/layout";
 import React, { Component } from "react";
 import Head from "next/head";
 import styles from "./About.module.scss";
